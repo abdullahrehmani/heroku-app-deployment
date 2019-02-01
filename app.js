@@ -6,7 +6,7 @@ var users = [
     { id: 2, username: "test", password: '1234' },
 ]
 
-var server = express()
+var server = express();
 
 server.use(express.static('./build'))
 server.use(bodyParser.urlencoded({ extended: true }))
